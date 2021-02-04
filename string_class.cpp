@@ -41,30 +41,36 @@ string_class::string_class(string string_in)
 
 bool string_class::palindrome()
 {
-	string pali_test;
-	int capacity;
-	int j = 0;
-	int count = 0;
+	
+	string backwards, forwards, backwards_caps, forwards_caps;
 
-	capacity = current_string.length();
-
-	for (int i = capacity - 1; i >= 0; i--)
+	// current_string.length() - 1 because without the -1 there would be a space
+	for (int i = current_string.length() - 1; i >= 0; i--) // Direction:Right to Left
 	{
-		pali_test[i] = current_string[j];
-		if (toupper(pali_test[i]) == toupper(current_string[i]))
-			count++;
-		j++;
+		backwards += current_string[i];
 	}
 
-	if (count == capacity - 1)
+	forwards = current_string;
+
+	// makes string copies
+	backwards_caps = backwards;
+	forwards_caps = forwards;
+
+	// changes string letter casing to uppper case
+	for (int i = 0; i < backwards_caps.length(); i++)
+	{
+		backwards_caps[i] = toupper(forwards_caps[i]);
+	}
+	for (int i = 0; i < forwards_caps.length(); i++)
+	{
+		forwards_caps[i] = toupper(forwards_caps[i]);
+	}
+	
+	if (backwards_caps == forwards_caps)
 	{
 		return true;
 	}
-
-	else
-	{
-		return false;
-	}
+	return false;
 }
 
 //*************************************************************************************
