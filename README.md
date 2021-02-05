@@ -1,0 +1,1 @@
+# Josh-Data-Structures-Assignments In this project, 3 strings are taken into consideration. The current string is the class private variable. The old string is searched for in the current string. If the old string is found in the new string the old string is replaced with the new string in current string.
