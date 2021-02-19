@@ -1,0 +1,101 @@
+****Test#1: default constructor, length, and operator<<***
+
+"" : length = 0
+
+****End of Test#1*******************************************
+
+****Test#2: explicit-value constructor, length, and operator<<***
+
+me is "Today is a wonderful day!   " =  "Today is a wonderful day!   "
+The length of me is 28
+
+me_to is "" = ""
+The length of me_to is 0
+
+you_to is " " =  " "
+The length of you_to is 1
+
+****End of Test#2*******************************************
+
+****Test#3: copy constructor, length, isEqual, and operator<<***
+
+them is "Today is a wonderful day!   "
+The length of me is 28 = The length of them is 28
+isEqual should equal 1 = 1
+
+****End of Test#3*******************************************
+
+****TEST#4: overloaded operator= with string, and operator<<*******************
+
+Testing operator = by assigning the value of "There are five racoons in the palm tree."
+The sentence us is "There are five racoons in the palm tree."
+
+****End of Test#4*********************************************
+
+****TEST#5: overloaded operator= with string, isEqual, and operator<<*********
+
+isEqual should equal 0 = 0
+isEqual should equal 1 = 1
+isEqual should equal 1 = 1
+isEqual should equal 0 = 0
+isEqual should equal 1 = 1
+isEqual should equal 0 = 0
+****End of Test#5*********************************************
+
+****TEST#6: operator= with a string, operator+ with a sentence, and operator<<*****
+
+Adding 2 sentences by adding us to the back of their.  Their is the current object
+us = "will be okay." and length = 13
+their = "Everything " and length = 11
+their followed by us is "Everything will be okay." and length = 24
+us = "will be okay." and length = 13
+their = "Everything will be okay." and length = 24
+us followed by their is "will be okay.Everything will be okay." and length = 37
+*************************************************
+
+
+us = "123 456" and length = 7
+their = "123" and length = 3
+us followed by their is "123 456123"and length = 10
+us = "123 456" and length = 7
+their = "" and length = 0
+their followed by us is "123 456"and length = 7
+
+****End of Test#6*********************************************
+
+****TEST#7: remove with a string without spaces, and operator<<*****
+
+"" length of them = 0
+"" length of them = 0
+" abc 124 abc 123 4567" length of them = 21
+"123 abc 124 abc 123 " length of them = 20
+"123 abc  abc 123 4567" length of them = 21
+"123abc  abc 123 4567" length of them = 20
+"123abc abc 123 4567" length of them = 19
+"123abcabc 123 4567" length of them = 18
+"123abcabc123 4567" length of them = 17
+"123abcabc1234567" length of them = 16
+
+****End of Test#7*********************************************
+
+****TEST#8: operator= with a sentence object and operator<<*****
+
+right object = 123 456 780
+them = 123 456 780
+
+****End of TEST#8****************************************
+
+****End of Program*********************************************
+Destructor called
+Destructor called
+Destructor called
+Destructor called
+Destructor called
+Destructor called
+Destructor called
+Destructor called
+Destructor called
+Destructor called
+
+C:\courses\COP3530_fall2020\Assignments\module 6\solution\project6_solution_F2020\pro6_fall2020\Debug\pro6_fall2020.exe (process 13292) exited with code 0.
+Press any key to close this window . . .
