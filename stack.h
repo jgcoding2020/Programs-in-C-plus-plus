@@ -23,8 +23,7 @@ public:
 	stack_element top(); // returns top of stack data
 	void pop(); // deletes top node from list
 	void push(const stack_element&); // adds new node to top of list
-	void print(); // displays linked list from top to bottom
-	void build_stack(const string& C);
+	void build_print_stack(string& C);
 
 private:
 
