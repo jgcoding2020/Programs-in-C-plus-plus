@@ -41,38 +41,37 @@ string_class::string_class(string string_in)
 
 bool string_class::palindrome()
 {
-	
-	string backwards, forwards, backwards_caps, forwards_caps;
+	string backwards, forwards, backwards_upper, forwards_upper;
 
-	// current_string.length() - 1 because without the -1 there would be a space
-	for (int i = current_string.length() - 1; i >= 0; i--) // Direction:Right to Left
+	// loop removes space 
+	for (int i = current_string.length() - 1; i >= 0; i--) // from right to left
 	{
 		backwards += current_string[i];
 	}
-
+	// from left to right
 	forwards = current_string;
 
-	// makes string copies
-	backwards_caps = backwards;
-	forwards_caps = forwards;
+	// modified values
+	backwards_upper = backwards;
+	forwards_upper = forwards;
 
-	// changes string letter casing to uppper case
-	for (int i = 0; i < backwards_caps.length(); i++)
+	// values to all caps
+	for (int i = 0; i < backwards_upper.length(); i++)
 	{
-		backwards_caps[i] = toupper(forwards_caps[i]);
+		backwards_upper[i] = toupper(backwards_upper[i]);
 	}
-	for (int i = 0; i < forwards_caps.length(); i++)
+	for (int i = 0; i < forwards_upper.length(); i++)
 	{
-		forwards_caps[i] = toupper(forwards_caps[i]);
+		forwards_upper[i] = toupper(forwards_upper[i]);
 	}
-	
-	if (backwards_caps == forwards_caps)
+
+	// checks for palindrome
+	if (backwards_upper == forwards_upper)
 	{
 		return true;
 	}
 	return false;
 }
-
 //*************************************************************************************
 //Name:	Class string_class void member funtion replace_all
 //Precondition: Current_string state is unchanged
@@ -80,36 +79,62 @@ bool string_class::palindrome()
 //Description:  Searches for old_string in current_string and replaces those parts with new_string 
 //	
 //*************************************************************************************
-
 void string_class::replace_all(string old_string, string new_string)
 {
-	string temp_string;
+	string temp_string, backup, string_result;
+	int old_size = old_string.length();
+	bool evaluation = false;
 
-	for (int i = 0; i < current_string.length();)
+	// case selection
+	backup += current_string;
+
+	if (old_string.length() > current_string.length())
 	{
-		for (int j = 0; j < old_string.length();)
+		bool evaluation = false;
+	}
+	else
+	{
+		// current string change
+		for (int i = 0; i < current_string.length(); i++)
 		{
-			if (match(current_string, old_string, i))
+			temp_string = current_string[i];
+
+			for (int j = 1; j < old_size; j++)
 			{
-				temp_string = temp_string + new_string;
-				i = i + old_string.length();
-				j = j + old_string.length();
+
+				// lap 2
+				if (!(i + j > current_string.length()))
+				{
+					temp_string += current_string[i + j];
+				}
+
+				if (temp_string == old_string)
+				{
+					evaluation = true;
+
+					for (int k = 0; k < old_size; k++)
+					{
+						current_string.erase(current_string.begin() + i);
+					}
+					current_string.insert(i, new_string);
+					i += old_size;
+					string_result = current_string;
+				}
+
 			}
 
-			else
+			if (new_string.empty())
 			{
-				temp_string = temp_string + current_string[0];
-				j = old_string.length();
-				i++;
+				if (old_size <= 1)
+				{
+					if (current_string.at(i) != old_string[0]) { string_result += current_string.at(i); evaluation = true; }
+				}
 			}
 		}
 	}
-
-	current_string = temp_string;
-
-		cout << current_string;
+	current_string = string_result;
+	if (evaluation == false) { current_string = backup; }
 }
-
 //*************************************************************************************
 //Name:	Class string_class friend ostream& operator<<
 //Precondition: no input arguments
@@ -122,30 +147,4 @@ ostream& operator<<(ostream& out, string_class& string_class_obj)
 {
 	out << string_class_obj.current_string;
 	return out;
-}
-
-//*************************************************************************************
-//Name:	Class string_class bool member funtion match
-//Precondition: replace_all function needs a bool result
-//Postcondition: replace_all function receives a bool result
-//Description:  Finds matching letters in sequence from index [0] to length of old_string 
-//		returns true or false depending on whether a match is found each loop
-//*************************************************************************************
-
-bool string_class::match(string& current_string, string& old_string, int& i)
-{
-	int w = i;
-	if (current_string.length() >= old_string.length())
-	{
-		for (int j = 0; j < old_string.length(); j++, w++)
-		{
-			if (current_string[w] != old_string[j])
-			{
-				return false;
-			}
-		}
-
-		return true;
-	}
-	return false;
 }
