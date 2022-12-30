@@ -1,7 +1,3 @@
-//Remember to put your program header in this file;
-//Remember to include function name, pre/post conditions, and descriptions in all function headers;
-//Remember to comment code if necessary to understand.
-
 #include <iostream>
 #include <string>
 #include "sentence.h"
@@ -9,10 +5,9 @@
 using namespace std;
 
 //********************************************************************************************
-//Name:	Joshua Gardner		Z#:	Z15117842
-//Course: Date Structures and Algorithm Analysis (COP3530) Professor: Dr. Lofton Bullard
-//Due Date:	2/19/2021	Due Time:	11:59pm
-//Total Points: 25 Assignment 4: singly_list program
+//Name:	Joshua Gardner
+//Date:	2/19/2021
+//Content: singly_list program
 //Description: In this program we have two classes that work together to produce a list of memory 
 //		addresses through pointers that hold a string divided into individual words and spaces.
 //		The list is singly linked from the front working its way to the back of the list.
