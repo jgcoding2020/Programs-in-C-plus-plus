@@ -6,10 +6,9 @@
 using namespace std;
 
 //********************************************************************************************
-//Name:	Joshua Gardner		Z#:	Z15117842
-//Course: Date Structures and Algorithm Analysis (COP3530) Professor: Dr. Lofton Bullard
-//Due Date:	3/5/2021	Due Time:	11:59pm
-//Total Points: 25 Assignment 3: stack program
+//Name:	Joshua Gardner
+//Date:	3/5/2021
+//Content: stack program
 //Description: Utilizes a singly linked list to input a string as a post/prefixed operator and 
 //		displays the infix results
 //*********************************************************************************************
