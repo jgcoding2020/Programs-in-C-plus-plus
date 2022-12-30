@@ -1,7 +1,5 @@
-/* COP2220 001 10675
-Purpose: Understanding of functions, arrays, pointers, strings
-Author: Joshua Gardner z15117842
-Assignment: Lab 5
+/* Content: Understanding of functions, arrays, pointers, strings
+Author: Joshua Gardner
 Date: 07/31/2020 */
 
 #include <stdio.h>
