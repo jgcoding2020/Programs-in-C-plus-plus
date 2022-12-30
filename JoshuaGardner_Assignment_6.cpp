@@ -1,10 +1,6 @@
-/*
-Name: Joshua Gardner Z15117842
-Course: COP3014
-Assignment: Assignment 6
-Purpose: Use of a class/ member functions
-Date: 11/14/2020
-*/
+/* Name: Joshua Gardner
+Content: Use of a class/ member functions
+Date: 11/14/2020 */
 
 #include <iostream>
 #include <fstream>
