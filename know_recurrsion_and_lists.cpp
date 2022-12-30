@@ -3,10 +3,9 @@
 using namespace std;
 
 //********************************************************************************************
-//Name:	Joshua Gardner		Z#:	15117842
-//Course: Date Structures and Algorithm Analysis (COP3530) Professor: Dr. Lofton Bullard
-//Due Date:	3/29/2021	Due Time:	11:59pm
-//Total Points: 25 Assignment module 10B: fun recursion program
+//Name:	Joshua Gardner	
+//Date:	3/29/2021
+//Content: recursion program
 //Description: creates a linked list and uses a fun function to return the data recursively
 //*********************************************************************************************
 
