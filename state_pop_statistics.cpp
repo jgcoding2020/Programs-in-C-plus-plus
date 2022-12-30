@@ -6,13 +6,9 @@
 using namespace std;
 
 /***********************************PROGRAM HEADER*****************************************************************************************************
-Name: Joshua Gardner                           TOTAL POINTS:  25                DUE DATE:  01/22/2021
-COURSE:  COP 3530
-Assignment Name:  Assignment#1                 Professor:  Dr. Bullard
-
+Name: Joshua Gardner Date:  01/22/2021
 Description:  The program manages a dynamic array of records.
 ******************************************************************************************************************************************************/
-
 
 int main()
 {
