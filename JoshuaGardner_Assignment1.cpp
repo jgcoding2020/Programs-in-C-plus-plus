@@ -1,10 +1,7 @@
-/*
-Course: COP 3014 003 Fall 2020
-Name: Joshua Gardner Z15117842
+/* Name: Joshua Gardner
 Date: 9/06/20
-Task: Assignment1: Using I/O, int variable declarations,
-variable value assignments and calculations.
-*/
+Content: Using I/O, int variable declarations,
+variable value assignments and calculations. */
 #include <iostream>
 
 using namespace std;
