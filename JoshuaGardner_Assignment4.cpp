@@ -1,8 +1,6 @@
-/*
-Name: Joshua Gardner
+/* Name: Joshua Gardner
 Content: Using functions to create a given amount of change
-Date: 10/13/2020
-*/
+Date: 10/13/2020 */
 
 #include <iostream>
 
