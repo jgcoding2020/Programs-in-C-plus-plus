@@ -1,10 +1,6 @@
-/*
-Name Joshua Gardner Z15117842
-Course: COP 3014
-Assignment: Lab2
-Purpose: Use of functions to convert weight measurement types
-Date: 10/10/2020
-*/
+/* Name Joshua Gardner
+Content: Use of functions to convert weight measurement types
+Date: 10/10/2020 */
 
 #include <iostream>
 
