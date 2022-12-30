@@ -1,8 +1,6 @@
 /*
-Name: Joshua Gardner Z15117842
-Course: COP3014
-Assignment: Assignment 4
-Purpose: Using functions to create a given amount of change
+Name: Joshua Gardner
+Content: Using functions to create a given amount of change
 Date: 10/13/2020
 */
 
