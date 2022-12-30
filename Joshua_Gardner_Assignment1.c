@@ -1,7 +1,5 @@
-/* COP2220 001 10675
-Purpose: comprehension of print function, performing calculations, and use of scanf
-Author: Joshua Gardner z15117842
-Assignment: Assignment 1
+/* Content: comprehension of print function, performing calculations, and use of scanf
+Author: Joshua Gardner
 Date: 06/01/2020 */
 
 #include <stdio.h>
@@ -45,7 +43,7 @@ int main()
 
     printf("\nOk, the temperature is %.2f degrees celsius.\n", celsius); // prints converted temperature in celsius
 
-    /* 4. program that estimates the temperature in a freezer (in °C) given the elapsed time (hours)
+    /* 4. program that estimates the temperature in a freezer (in Â°C) given the elapsed time (hours)
     since a power failure. Assume this temperature ( T ) is given by*/
 
     double hrs;
