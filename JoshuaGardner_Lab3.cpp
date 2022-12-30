@@ -1,8 +1,6 @@
-/*
-Lab 3: Practicing sorting algorithms and searching arrays
-Author: Joshua Gardner & COP 3014
-Date: 12/2/2020
-*/
+/* Content: Practicing sorting algorithms and searching arrays
+Author: Joshua Gardner
+Date: 12/2/2020 */
 
 #include <iostream>
 
