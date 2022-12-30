@@ -1,10 +1,6 @@
-/*
-Name: Joshua Gardner
-Course: COP 3014
-Assignment: Lab1
-Purpose: converting mph into a runner's pace given in minutes and seconds
-Date: 9/18/2020
-*/
+/* Name: Joshua Gardner
+Content: converting mph into a runner's pace given in minutes and seconds
+Date: 9/18/2020 */
 
 #include <iostream>
 
