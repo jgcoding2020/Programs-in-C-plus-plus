@@ -1,9 +1,5 @@
-/*
-Name: Joshua Gardner
-Course: COP 3014
-Assignment: Assignment 5
-Purpose: using iofstream class objects to read/write to/from txt files to generate random numbers and calculate avg/std dev.
-*/
+/* Name: Joshua Gardner
+Purpose: using iofstream class objects to read/write to/from txt files to generate random numbers and calculate avg/std dev. */
 
 #include <iostream>
 #include <ctime>
