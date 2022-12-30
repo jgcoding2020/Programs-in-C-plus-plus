@@ -1,10 +1,6 @@
-/*
-NAME: Joshua Gardner Z15117842
-COURSE: COP 3014-003
-ASSGNMENT: Assignment 3
-PURPOSE: Displaying prime numbers in between 3 and user entered value
-DATE: 10/01/2020
-*/
+/* NAME: Joshua Gardner
+Content: Displaying prime numbers in between 3 and user entered value
+Date: 10/01/2020 */
 
 #include <iostream>
 
