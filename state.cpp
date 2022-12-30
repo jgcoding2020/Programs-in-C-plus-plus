@@ -2,7 +2,6 @@
 #include "state.h"
 #include <iomanip>  //need to use formatting manipulators
 
-
 /***********************FUNCTION HEADER ******************************************************************************************************************
 Name:  Default Constructor
 Pre-Conditon: The count, capacity, and the dynamic array (pop_DB) have not been initialized.
