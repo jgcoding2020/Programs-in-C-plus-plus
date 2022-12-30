@@ -4,10 +4,9 @@
 using namespace std;
 
 //********************************************************************************************
-//Name:	Joshua Gardner		Z#:	15117842
-//Course: Date Structures and Algorithm Analysis (COP3530) Professor: Dr. Lofton Bullard
-//Due Date:	3/26/2021	Due Time:	11:59pm
-//Total Points: 25 Assignment module 10: recursion program
+//Name:	Joshua Gardner
+//Date:	3/26/2021
+//Content: recursion program
 //Description: tests if input string is a palindrome and use of recursive functions
 //*********************************************************************************************
 
