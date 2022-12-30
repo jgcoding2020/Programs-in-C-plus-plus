@@ -1,11 +1,7 @@
-/*
-Name: Joshua Gardner Z15117842
-Course: COP 3014 003
-Assignment: Assignment 2
-Purpose: To collect 10 user entered numbers and calculate
+/* Name: Joshua Gardner
+Content: To collect 10 user entered numbers and calculate
 sums and averages of positive, negative, and all entries
-Date: 9/19/2020
-*/
+Date: 9/19/2020 */
 
 #include <iostream>
 
