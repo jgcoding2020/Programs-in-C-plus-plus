@@ -1,23 +1,12 @@
 #include "date.h"
 
-//*********************************************************************************************
-//*********************************************************************************************
-//	D A T E	D R I V E R . C P P
-
-
-
-
-//EXAMPLE OF PROGRAM HEADER
 /********************************************************************************************
 
-Name:	Joshua Gardner Z#: 15117842
-Course: Date Structures and Algorithm Analysis (COP3530) Professor: Dr. Lofton Bullard
-Due Date:	1/29/2021 Due Time: 11:59pm
-Total Points: 100 Assignment 3: Date program
-
+Name: Joshua Gardner
+Date: 1/29/2021
+Content: Date program
 Description: This program evaluates the validity of dates given and whether or not the date 
 is a leap year and displays the results 
-
 
 *********************************************************************************************/
 
