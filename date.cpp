@@ -1,11 +1,5 @@
 #include "date.h"
 
-//*********************************************************************************************
-//*********************************************************************************************
-//	D A T E	. C P P
-
-
-//This stub (for now) should be implemented in date.cpp
 //*************************************************************************************
 //Name:	Date default constructor
 //Precondition: The state of the object (private data) has not been initialized
