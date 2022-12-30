@@ -4,10 +4,9 @@
 using namespace std;
 
 //********************************************************************************************
-//Name:	Joshua Gardner		Z#:	Z15117842
-//Course: Date Structures and Algorithm Analysis (COP3530) Professor: Dr. Lofton Bullard
-//Due Date:	3/19/2021	Due Time:	11:59pm
-//Total Points: 25 Assignment module 9: vlist program
+//Name:	Joshua Gardner
+//Date:	3/19/2021
+//Content: vlist program
 //Description: utilizes object vector template to store and manipulate string elements
 //*********************************************************************************************
 
