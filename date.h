@@ -4,12 +4,6 @@
 
 using namespace std;
 
-//*********************************************************************************************
-//*********************************************************************************************
-//	D A T E . h
-
-//This declaration should go in date.h
-
 #ifndef DATE_H
 #define DATE_H
 
@@ -35,6 +29,5 @@ public:
 private:
 	int myMonth, myDay, myYear; //month, day, and year of a Date obj respectively
 };
-
 
 #endif
