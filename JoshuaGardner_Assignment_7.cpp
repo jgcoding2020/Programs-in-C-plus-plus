@@ -1,10 +1,7 @@
-/*
-Name: Joshua Gardner Z15117842
-Course: COP3014
-Assignment: Assignment 7
-Purpose: Using classes/member functions to calculate 2 students test scores etc
-Date: 11/25/2020
-*/
+/* Name: Joshua Gardner
+Content: Using classes/member functions to calculate 2 students test scores etc
+Date: 11/25/2020 */
+
 #include <iostream>
 #include <string>
 #include <fstream>
